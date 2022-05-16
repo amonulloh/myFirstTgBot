@@ -1,0 +1,5 @@
+aiogram~=2.20
+lxml
+requests~=2.27.1
+beautifulsoup4~=4.11.1
+googletrans==4.0.0-rc1
