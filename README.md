@@ -32,6 +32,7 @@ https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1
 https://en.wikipedia.org/wiki/2021%E2%80%9322_Bundesliga
 ```
 
+<<<<<<< HEAD
 
 ### Some screenshots from bot:
 
@@ -48,3 +49,6 @@ Another language.
 Wrong штзгеы
 ![image](./screenshots/Screenshot_4.png)
 >>>>>>>***Thank you very much, Regards Manuel***
+=======
+***Thank you very much, Regards Manuel***
+>>>>>>> 6e339a3caffbab6f96c811d0a9a95105d906d4cb
