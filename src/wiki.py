@@ -30,6 +30,10 @@ class Football:
         points = []
         lst1 = ''
         num = ''
+        MAXLEN = 7
+        PTSNUM = 9
+        DIGITAL = 10
+
 
         removies = [
             '2022–23 UEFA Champions League', '2022–23 UEFA Europa League', 'None',
@@ -56,7 +60,7 @@ class Football:
                     pass
 
         for j in point:
-            if len(str(j)) < 7:
+            if len(str(j)) < MAXLEN:
                 lst1 = lst1 + str(j)
 
         lst1 = lst1.replace('\n', ' ')
@@ -67,12 +71,12 @@ class Football:
         lst = lst1.split()
 
         for k in range(1, len(lst) + 1):
-            if k % 9 == 0:
+            if k % PTSNUM == 0:
                 points.append(lst[k - 1])
 
         j = 1
         for i in range(len(points)):
-            if j < 10:
+            if j < DIGITAL:
                 num = ' ' + str(j)
             else:
                 num = str(j)
